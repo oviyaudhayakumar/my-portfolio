@@ -319,23 +319,23 @@ ul.social-icons {
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action=" " method="POST">
+                    <form action=" https://getform.io/f/837c3250-3281-4125-ba81-cd43c9549054" method="POST" method="GET" id="nameform">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Name" required="" name="Name">
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" placeholder="Email" required="" name="email">
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" placeholder="Subject" required="" name="Subject">
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Message.." required="" name="Message"></textarea>
                         </div>
                         <div class="button-area">
-                            <button type="submit">Send message</button>
+                            <button type="submit" form="nameform">Send message</button>
                         </div>
                     </form>
                 </div>
